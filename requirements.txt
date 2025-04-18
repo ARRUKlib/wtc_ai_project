@@ -1,0 +1,47 @@
+# --- Core Web Server ---
+fastapi
+uvicorn
+
+# --- LangChain Core ---
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langsmith
+
+# --- LLM + Tools ---
+llama-cpp-python>=0.2.64  # ใช้กับ .gguf
+openai
+tqdm
+pydantic
+PyYAML
+
+# --- Async & Web ---
+httpx
+requests
+requests-toolbelt
+anyio
+async-timeout
+
+# --- Memory / Caching / VectorStore รองรับภายหลัง ---
+diskcache
+SQLAlchemy
+
+# --- Utils ---
+jinja2
+click
+typing-extensions
+typing-inspection
+packaging
+certifi
+charset-normalizer
+idna
+urllib3
+distro
+exceptiongroup
+jsonpatch
+jsonpointer
+greenlet
+
+# --- Optional: สำหรับติดตั้งโมเดลอัตโนมัติจาก HuggingFace ---
+huggingface_hub
